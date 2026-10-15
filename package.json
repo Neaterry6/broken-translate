@@ -1,0 +1,51 @@
+{
+  "name": "broken-translate",
+  "version": "1.0.3",
+  "description": "Zero-dependency translation for Node. Auto-detect, batch, and long-text support using the built-in fetch. No axios, no SDK, nothing to install.",
+  "keywords": [
+    "translate",
+    "translation",
+    "translator",
+    "i18n",
+    "l10n",
+    "language",
+    "detect-language",
+    "mymemory",
+    "zero-dependency",
+    "fetch"
+  ],
+  "license": "MIT",
+  "author": "Akewushola Abdulbakri Temitope (brokenvzn) <akewusholaabdulbakri101@gmail.com>",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.js",
+    "test:live": "node --test test-live.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neaterry6/broken-translate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neaterry6/broken-translate/issues"
+  },
+  "homepage": "https://github.com/Neaterry6/broken-translate#readme",
+  "sideEffects": false
+}
